@@ -1,28 +1,23 @@
+Movieflix is a web application based on Django that offers a variety of features for movie enthusiasts. With Movieflix, you can create a user account, log in, watch movies, view the latest and most viewed movies, and search for movies by title or category.
 
-MOVIEFLIX: é uma aplicação web baseada em Django que oferece uma variedade de funcionalidades para os amantes de filmes. Com o Movieflix, você pode criar uma conta de usuário, fazer login, assistir a filmes, ver os filmes mais recentes e mais vistos, além de procurar filmes por título ou categoria.</p>
+Key Features:
 
-Funcionalidades Principais
+a) User creation
+b) User authentication
+c) Logout
+d) Provides a list of movies watched by the logged-in user, recently added movies, and the most viewed movies in the application
+e) Movie search field by title or category
 
-    a) Criação de usuário
-    b) Autenticação de usuário
-    c) Logout
-    d) Oferece a relação de filmes assistidos pelo usuário logado, os adicionados recentementes e os mais vistos na aplicação
-    e) Campo de busca de filmes por título ou categoria
+How to Run the Project:
 
-Como executar o projeto:
+Locally:
 
-    1. Em ambiente local:
+a) Clone this repository to your machine
+b) Make sure you have Python installed on your system
+c) Create a virtual environment for the project and activate it
+d) Install project dependencies with "pip install -r requirements.txt"
+e) Apply database migrations with "python manage.py migrate"
+f) Start the development server with python manage.py runserver
+g) Access the application in your browser using the localhost port displayed in your terminal
 
-    a) Clone este repositório para sua máquina
-    b) Certifique-se de que você possui o Python instalado em seu sistema
-    c) Crie um ambiente virtual para o projeto e ative-o
-    d) Instale as dependências do projeto com "pip install -r requirements.txt"
-    e) Execute as migrações do banco de dados com "python manage.py migrate"
-    f) Inicie o servidor de desenvolvimento com <code>python manage.py runserver
-    g) Acesse o aplicativo em seu navegador na porta do localhost que consta em seu terminal
-
-
-    2. Ou você pode acessar o link https://movieflix-production-6f66.up.railway.app/
-
-
-
+Or you can access the link: https://movieflix-production-6f66.up.railway.app/
